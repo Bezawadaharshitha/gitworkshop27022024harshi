@@ -1,0 +1,21 @@
+<htm>
+<title>
+my example1
+</title>
+<body>
+<label>name:</label> <input id="name"></input><br>
+<label>Gender:</label> <input id="gender"/>
+<input type="submit" onclick="show()"/>
+
+<script>
+function show() {
+var name = document.GetElementById("value").value;
+var gender = document.GetElementById("gender").value;
+var message = '';
+if(gender === 'male') {
+message = "Hello Mr. '+name;
+}elsse if(gender === 'female') {
+message = 'Hello Mr. '+name;
+}else{
+message = 'Hello Mr. '+name;
+}
